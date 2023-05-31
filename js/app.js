@@ -465,7 +465,7 @@ const login = async () => {
             }
         })
         .catch(() => {
-            alert('Terdapat kesalahan, otomatis reload halaman');
+            alert('Terdapat kesalahan, ' + res.error[0]);
             window.location.reload();
             return;
         });
