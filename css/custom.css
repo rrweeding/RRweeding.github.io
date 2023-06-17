@@ -8,28 +8,35 @@
     src: url('../assets/font/SweetRomance.otf');
 }
 
+body {
+    font-family: sunflower;
+}
+
 @media only screen and (max-width: 768px) {
     .modal-cover {
         background-image: url('../assets/images/cover.jpg');
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: auto 100%;
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     #home {
-        --bs-gutter-x: 0;
+        background-image: url('../assets/images/home.jpg');
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 
     #mempelai {
-        --bs-gutter-x: 0;
+        background-image: url('../assets/images/mempelai.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 }
 
-#namatamu .text-dark{
-    margin-top: 1em;
+#namatamu .text-dark {
     font-family: SweetRomance;
     font-size: 2em !important;
 }
