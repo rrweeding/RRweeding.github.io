@@ -27,13 +27,8 @@ html {
 
 body {
     overflow: overlay;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'sunflower';
     padding: 0 !important;
-}
-
-.font-estetik {
-    font-family: 'Sacramento', cursive !important;
-    color: #ffffff !important;
 }
 
 .cropper {
