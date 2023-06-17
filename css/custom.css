@@ -1,0 +1,27 @@
+@font-face {
+    font-family: sunflower;
+    src: url('../assets/font/sunflower.otf');
+}
+
+@font-face {
+    font-family: SweetRomance;
+    src: url('../assets/font/SweetRomance.otf');
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-cover {
+        background-image: url('../assets/images/cover.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+#namatamu .text-dark{
+    margin-top: 1em;
+    font-family: SweetRomance;
+    font-size: 2em !important;
+}
