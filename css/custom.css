@@ -18,6 +18,28 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    #home {
+        background-image: url('../assets/images/home.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 658px;
+    }
+
+    #mempelai {
+        background-image: url('../assets/images/mempelai.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 658px;
+    }
 }
 
 #namatamu .text-dark{
