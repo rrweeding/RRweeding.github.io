@@ -56,6 +56,13 @@ body {
     #tanggal {
         background-image: url('../assets/images/mempelai.webp');
     }
+
+    .arrum {
+        background-size: cover;
+        background-image: url('../assets/images/arrum.jpg');   
+        height: 60vh;
+        background-position: top;
+    }
 }
 
 #namatamu .text-dark {
