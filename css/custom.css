@@ -11,15 +11,23 @@
 body {
     font-family: sunflower;
     background-color: #cad4cd;
+    color: black;
 }
 
 .text-home {
-    font-size: 2.3rem; 
-    color: #5f3d22; 
-    line-height:1.2em; 
+    font-size: 2.3rem;
+    color: #5f3d22;
+    line-height: 1.2em;
     font-family: SweetRomance;
     letter-spacing: .1em;
     font-weight: bold;
+}
+
+.img-mempelai {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,6 +50,10 @@ body {
     }
 
     #mempelai {
+        background-image: url('../assets/images/mempelai.jpg');
+    }
+
+    #tanggal {
         background-image: url('../assets/images/mempelai.webp');
     }
 }
