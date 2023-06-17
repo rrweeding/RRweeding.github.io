@@ -54,7 +54,10 @@ body {
     }
 
     #tanggal {
-        background-image: url('../assets/images/mempelai.webp');
+        background-image: url('../assets/images/tanggal.jpg');
+        background-size: cover;
+        height: 78vh;
+        background-position: top;
     }
 
     .arrum {
