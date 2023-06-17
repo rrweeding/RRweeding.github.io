@@ -15,7 +15,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .modal-cover {
-        background-image: url('../assets/images/cover.jpg');
+        background-image: url('../assets/images/cover.webp');
         background-size: auto 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -29,11 +29,11 @@ body {
     }
 
     #home {
-        background-image: url('../assets/images/home.jpg');
+        background-image: url('../assets/images/home.webp');
     }
 
     #mempelai {
-        background-image: url('../assets/images/mempelai.jpg');
+        background-image: url('../assets/images/mempelai.webp');
     }
 }
 
