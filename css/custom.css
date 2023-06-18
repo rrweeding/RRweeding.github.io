@@ -33,13 +33,13 @@ body {
 @media only screen and (max-width: 768px) {
     .modal-cover {
         background-image: url('../assets/images/cover.webp');
-        background-size: auto 100%;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .img-bg {
-        background-size: auto 100%;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
