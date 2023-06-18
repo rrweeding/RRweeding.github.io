@@ -9,13 +9,37 @@
 }
 
 body {
-    font-family: sunflower;
-    color: black;
+    font-family: 'sunflower';
+    color: 585252;
     background-image: url('../assets/images/bg.jpg');
 }
 
 #tanggal {
     color: #585252;
+}
+
+.form-label {
+    color: #585252;
+}
+
+.form-control{
+    background-color: white;
+    color: #585252;
+}
+
+.form-control:focus{
+    background-color: white;
+    color: #5f3d22;
+}
+
+.form-select{
+    background-color: white;
+    color: #585252;
+}
+
+.form-select:focus{
+    background-color: white;
+    color: #5f3d22;
 }
 
 @media only screen and (max-width: 767px) {
@@ -81,77 +105,11 @@ body {
         color: #585252;
     }
 
-    /* .mobile[data-aos] { overflow-x : hidden  } */
-
-    /* 
-
-    
-
-    
-    
-
-    #tanggal {
-        background-image: url('../assets/images/tanggal.jpg');
-        background-size: cover;
-        height: 78vh;
-        background-position: top;
+    #love-story {
+        background-image: url('../assets/images/love-story.jpg');
     }
 
-    .arrum {
-        background-size: cover;
-        background-image: url('../assets/images/arrum.jpg');
-        height: 60vh;
-        background-position: top;
-    } */
-}
-
-/*
-
-
-
-
-@media only screen and (max-width: 767px) {
-    body {
-        background-image: url('../assets/images/bg-mobile.jpg');
-        
-    min-width: fit-content;
-    }
-
-    .modal-cover {
-        background-image: url('../assets/images/cover.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .img-bg {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-
-    #home {
-        background-image: url('../assets/images/mempelai.jpg');
-    }
-
-    #mempelai {
-        background-image: url('../assets/images/mempelai.jpg');
-    }
-
-    #tanggal {
-        background-image: url('../assets/images/tanggal.jpg');
-        background-size: cover;
-        height: 78vh;
-        background-position: top;
-    }
-
-    .arrum {
-        background-size: cover;
-        background-image: url('../assets/images/arrum.jpg');
-        height: 60vh;
-        background-position: top;
+    #penutup {
+        margin-bottom: 3em;
     }
 }
-
- */
