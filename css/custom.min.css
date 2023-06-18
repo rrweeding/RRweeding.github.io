@@ -11,7 +11,9 @@
 body {
     font-family: 'sunflower';
     color: 585252;
-    background-image: url('../assets/images/bg.webp');
+    background-image: url('../assets/images/bg-mobile.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #tanggal {
@@ -49,11 +51,11 @@ body {
     letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 767px) {
-    body {
-        background-image: url('../assets/images/bg-mobile.webp');
-    }
+.img-galery {
+    width: 500px;
+}
 
+@media only screen and (max-width: 767px) {
     .modal-cover {
         background-image: url('../assets/images/cover.webp');
         background-size: cover;
@@ -97,6 +99,10 @@ body {
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+
+    .img-galery {
+        width: 100%;
     }
 
     .text-mempelai {
