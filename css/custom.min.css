@@ -14,6 +14,10 @@ body {
     background-image: url('../assets/images/bg.jpg');
 }
 
+#tanggal {
+    color: #585252;
+}
+
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('../assets/images/bg-mobile.jpg');
@@ -25,8 +29,6 @@ body {
         background-position: center;
         background-repeat: no-repeat;
     }
-
-
 
     #namatamu .text-dark {
         margin-top: 1em;
@@ -68,11 +70,15 @@ body {
     }
 
     .text-mempelai {
-        font-size: 1.7rem;
+        font-size: 1.7em;
         line-height: 1.2em;
         font-family: SweetRomance;
-        font-weight: bold;
         color: black;
+    }
+
+    .text-arrum {
+        font-size: .7em;
+        color: #585252;
     }
 
     /* .mobile[data-aos] { overflow-x : hidden  } */
