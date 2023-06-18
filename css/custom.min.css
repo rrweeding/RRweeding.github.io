@@ -78,10 +78,56 @@ body {
     background-image: url('../assets/images/home-web.webp');
 }
 
+.img-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden
+}
+
+.d-mobile {
+    display: none;
+}
+
+.d-web {
+    display: block;
+}
+
+.text-home {
+    font-size: 5rem;
+    color: #5f3d22;
+    line-height: 1.2em;
+    font-family: SweetRomance;
+    letter-spacing: .1em;
+}
+
+#mempelai {
+    background-image: url('../assets/images/mempelai-web.webp');
+}
+
+.text-arrum {
+    font-size: 1em;
+    color: #585252;
+}
+
+#love-story {
+    background-image: url('../assets/images/love-story-web.webp');
+    background-size: cover;
+    overflow-x: hidden;
+}
 
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('../assets/images/bg-mobile.webp');
+    }
+
+    .d-web {
+        display: none;
+    }
+
+    .d-mobile {
+        display: block ;
     }
 
     .modal-cover {
