@@ -14,6 +14,55 @@ body {
     background-image: url('../assets/images/bg.jpg');
 }
 
+#namatamu .text-dark {
+    margin-top: 1em;
+    font-family: SweetRomance;
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url('../assets/images/bg-mobile.jpg');     
+    }
+    .modal-cover {
+        background-image: url('../assets/images/cover.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* 
+
+    .img-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    #home {
+        background-image: url('../assets/images/mempelai.jpg');
+    }
+
+    #mempelai {
+        background-image: url('../assets/images/mempelai.jpg');
+    }
+
+    #tanggal {
+        background-image: url('../assets/images/tanggal.jpg');
+        background-size: cover;
+        height: 78vh;
+        background-position: top;
+    }
+
+    .arrum {
+        background-size: cover;
+        background-image: url('../assets/images/arrum.jpg');
+        height: 60vh;
+        background-position: top;
+    } */
+}
+/*
 .text-home {
     font-size: 2.3rem;
     color: #5f3d22;
@@ -74,7 +123,4 @@ body {
     }
 }
 
-#namatamu .text-dark {
-    font-family: SweetRomance;
-    font-size: 2em !important;
-}
+ */
