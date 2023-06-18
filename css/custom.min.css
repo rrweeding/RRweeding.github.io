@@ -14,35 +14,6 @@ body {
     background-image: url('../assets/images/bg.jpg');
 }
 
-#namatamu .text-dark {
-    margin-top: 1em;
-    font-family: SweetRomance;
-    font-size: 2em !important;
-    font-weight: bold;
-}
-
-#home {
-    background-image: url('../assets/images/home.webp');
-}
-
-.text-home {
-    font-size: 3rem;
-    color: #5f3d22;
-    line-height: 1.2em;
-    font-family: SweetRomance;
-    letter-spacing: .1em;
-    font-weight: bold;
-}
-
-.img-bg {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow-x : hidden
-}
-
-
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('../assets/images/bg-mobile.jpg');
@@ -55,7 +26,55 @@ body {
         background-repeat: no-repeat;
     }
 
-    
+
+
+    #namatamu .text-dark {
+        margin-top: 1em;
+        font-family: SweetRomance;
+        font-size: 2em !important;
+        font-weight: bold;
+    }
+
+    #home {
+        background-image: url('../assets/images/home.webp');
+    }
+
+    #mempelai {
+        background-image: url('../assets/images/mempelai.jpg');
+    }
+
+    .text-home {
+        font-size: 3rem;
+        color: #5f3d22;
+        line-height: 1.2em;
+        font-family: SweetRomance;
+        letter-spacing: .1em;
+        font-weight: bold;
+    }
+
+    .img-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow-x: hidden
+    }
+
+    .img-mempelai {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .text-mempelai {
+        font-size: 1.7rem;
+        line-height: 1.2em;
+        font-family: SweetRomance;
+        font-weight: bold;
+        color: black;
+    }
+
     /* .mobile[data-aos] { overflow-x : hidden  } */
 
     /* 
@@ -63,9 +82,7 @@ body {
     
 
     
-    #mempelai {
-        background-image: url('../assets/images/mempelai.jpg');
-    }
+    
 
     #tanggal {
         background-image: url('../assets/images/tanggal.jpg');
@@ -85,12 +102,7 @@ body {
 /*
 
 
-.img-mempelai {
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+
 
 @media only screen and (max-width: 767px) {
     body {
