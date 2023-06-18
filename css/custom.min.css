@@ -10,7 +10,7 @@
 
 body {
     font-family: 'sunflower';
-    color: 585252;
+    color: #585252;
     background-image: url('../assets/images/bg-mobile.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,9 +116,17 @@ body {
     overflow-x: hidden;
 }
 
+.img-galery {
+    width: 500px;
+}
+
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('../assets/images/bg-mobile.webp');
+    }
+
+    .img-galery {
+        width: 100%;
     }
 
     .d-web {
@@ -207,5 +215,6 @@ body {
         font-size: 3em;
         color: black;
         letter-spacing: 1px;
+        line-height: initial;
     }
 }
