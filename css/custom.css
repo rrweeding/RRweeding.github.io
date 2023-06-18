@@ -10,8 +10,8 @@
 
 body {
     font-family: sunflower;
-    background-color: #cad4cd;
     color: black;
+    background-image: url('../assets/images/bg.jpg');
 }
 
 .text-home {
@@ -30,7 +30,13 @@ body {
     display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url('../assets/images/bg-mobile.jpg');
+        
+    min-width: fit-content;
+    }
+
     .modal-cover {
         background-image: url('../assets/images/cover.webp');
         background-size: cover;
@@ -46,7 +52,7 @@ body {
     }
 
     #home {
-        background-image: url('../assets/images/home.webp');
+        background-image: url('../assets/images/mempelai.jpg');
     }
 
     #mempelai {
@@ -62,7 +68,7 @@ body {
 
     .arrum {
         background-size: cover;
-        background-image: url('../assets/images/arrum.jpg');   
+        background-image: url('../assets/images/arrum.jpg');
         height: 60vh;
         background-position: top;
     }
