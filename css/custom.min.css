@@ -11,7 +11,7 @@
 body {
     font-family: 'sunflower';
     color: 585252;
-    background-image: url('../assets/images/bg.jpg');
+    background-image: url('../assets/images/bg.webp');
 }
 
 #tanggal {
@@ -44,7 +44,7 @@ body {
 
 @media only screen and (max-width: 767px) {
     body {
-        background-image: url('../assets/images/bg-mobile.jpg');
+        background-image: url('../assets/images/bg-mobile.webp');
     }
 
     .modal-cover {
@@ -66,7 +66,7 @@ body {
     }
 
     #mempelai {
-        background-image: url('../assets/images/mempelai.jpg');
+        background-image: url('../assets/images/mempelai.webp');
     }
 
     .text-home {
