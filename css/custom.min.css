@@ -42,6 +42,13 @@ body {
     color: #5f3d22;
 }
 
+.text-cover{
+    font-family: 'SweetRomance';
+    font-size: 3em;
+    color: black;
+    letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('../assets/images/bg-mobile.webp');
@@ -106,6 +113,7 @@ body {
 
     #love-story {
         background-image: url('../assets/images/love-story.webp');
+        background-size: contain;
     }
 
     #penutup {
