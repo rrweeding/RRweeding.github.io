@@ -558,6 +558,7 @@ window.addEventListener('load', () => {
         let div = document.createElement('div');
         div.classList.add('m-2');
         div.innerHTML = `
+        <h2 class="text-dark">Dear</h2>
         <h2 class="text-dark">${escapeHtml(name)}</h2>
         `;
 

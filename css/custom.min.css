@@ -145,7 +145,7 @@ body {
     }
 
     #namatamu .text-dark {
-        margin-top: 1em;
+        margin: 0;
         font-family: SweetRomance;
         font-size: 2em !important;
     }
